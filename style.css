@@ -1,0 +1,464 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    border: 1px solid black;
+    width: auto;
+    height: 80px;
+    display: flex;
+    /* position: sticky; */
+	top: 0;
+}
+.left{
+    width: 35%;
+    
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.right{
+    width:65%;
+    /* border:1px solid black; */
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.left h1{
+    color: white;
+    margin-left: 129px;
+    margin-top: 16px;
+    transition: all;
+    transition-duration: 0.2s;
+}
+.right ul li{
+    display: inline-block;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.innerbox{
+    /* border: 1px solid blue; */
+    width: 750px;
+    margin-top: 12px;
+    margin-left: 88px;
+}
+.right ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all;
+    transition-duration: 0.2s;
+}
+.left h1:hover{
+    color: rgb(255, 5, 55);
+    cursor:pointer;
+}
+.right ul li a:hover{
+    color: rgb(255, 5, 55);
+    cursor:pointer;
+}
+.right #facebook{
+    filter: invert(100%);
+    size: 25px;
+    margin-left: 35px;
+    transition: all;
+    transition-duration: 0.2s;
+}
+.right #insta{
+    color: white;
+    size: 25px;
+    margin-left: 35px;
+    transition: all;
+    transition-duration: 0.2s;
+}
+.right #twitter{
+    color: white;
+    size: 25px;
+    margin-left: 35px;
+    transition: all;
+    transition-duration: 0.2s;
+}
+.right #facebook:hover{
+    color: rgb(255, 5, 55);
+    cursor:pointer;
+}
+.right #insta:hover{
+    color: rgb(255, 5, 55);
+    cursor:pointer;
+}
+.right #twitter:hover{
+    color: rgb(12, 165, 236);
+    cursor:pointer;
+}
+.homeimage{
+    /* border: 1px solid red; */
+    background: url("images/hero-bg.jpg");
+    background-size: cover;  
+    height: 575px;  
+}
+.homeimage .content{
+    /* border: 1px solid yellow; */
+    height: 575px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: relative;
+}
+.homeimage .content h2{
+    color: rgb(224, 212, 212);
+    font-family:'Times New Roman', Times, serif;
+    font-size:30px;
+    /* border: 1px solid yellow; */
+    position: absolute;
+    left: 470px;
+    top: 120px;
+}
+.homeimage .content #firstline{
+    color: white;
+    position: absolute;
+    left: 378px;
+    top: 172px;
+    font-size: 50px;
+}
+.homeimage .content #secondline{
+    color: white;
+    position: absolute;
+    left: 483px;
+    top: 238px;
+    font-size: 50px;
+}
+.homeimage .content .getstart{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    /* border: 1px solid yellow; */
+    left: 530px;
+    top: 366px;
+    font-size: 16px;
+    transition: all;
+    transition-duration: 0.2s;
+}
+.homeimage .content .getstart:hover{
+    color: rgb(255, 5, 55); 
+}
+.homeimage .content .learnmore{
+    text-decoration: none;
+    color: rgb(255, 5, 55);
+    position: absolute;
+    padding: 15px 30px;
+    border: 1px solid rgb(255, 5, 55) ;
+    border-radius: 3px;
+    left: 684px;
+    top: 348px;
+    font-size: 16px;
+    transition: all;
+    transition-duration: 0.2s;
+}
+.homeimage .content .learnmore:hover{
+    border: none;
+    background-color: white;
+}
+.mid{
+    /* border: 1px solid yellow; */
+    height: 500px;
+    display: flex;
+}
+.leftmid{
+    position: relative;
+    border-right: 1px solid black;
+    width: 57%;
+    background-color: black;
+    opacity: 0.9;
+}
+.rightmid{
+    position: relative;
+    /* border: 1px solid black; */
+    background-color: black;
+    opacity: 0.9;
+    width: 43%;
+}
+.leftmid h1{
+    position: absolute;
+    /* border: 1px solid red; */
+    top: 82px;
+    left: 240px;
+    font-size: 48px;
+    color: white;
+    
+}
+.leftmid h2{
+    position: absolute;
+    /* border: 1px solid red; */
+    top: 149px;
+    left: 239px;
+    font-size: 27px;
+    width: 550px;
+    color: white;
+}
+.leftmid span{
+    position: absolute;
+    /* border: 1px solid red; */
+    top: 182px;
+    left: 240px;
+    font-size: 26px;
+    color: white;
+}
+.leftmid p{
+    position: absolute;
+    /* border: 1px solid red; */
+    top: 236px;
+    left: 239px;
+    width: 416px;
+    font-size: 20px;
+    color: grey;
+}
+.rightmid h1{
+    position: absolute;
+    top: 101px;
+    left: 67px;
+    font-size: 40px;
+    color: white;
+}
+.rightmid .a{
+    position: absolute;
+    top: 165px;
+    left: 73px;
+    color: white;
+}
+.rightmid .b{
+    position: absolute;
+    top: 200px;
+    left: 74px;
+    color: white;
+}
+.rightmid #c{
+    position: absolute;
+    top: 274px;
+    left: 75px;
+    color: white;
+}
+.rightmid span{
+    position : absolute;
+    top: 233px;
+    left: 75px;
+    color: grey;
+}
+.leftmid a{
+    position: absolute;
+    text-decoration: none;
+    /* border: 1px solid yellow; */
+    padding: 15px 99px;
+    top: 334px;
+    left: 238px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(255, 5, 55);
+    transition: all;
+    transition-duration: 0.1s;
+}
+.leftmid a:hover{
+    background-color: white;
+    color: rgb(255, 5, 55) ;
+}
+.team{
+    display: flex;
+    /* border: 1px solid red; */
+    height: 600px;
+}
+.teamdiscription{
+    position: relative;
+    width: 50%;
+    /* border-right: 1px solid black; */
+}
+.teamdiscription h1{
+    position: absolute;
+    top: 166px;
+    left: 135px;
+    font-size:40px;
+    font-weight: bold;
+}
+.teamdiscription #ist{
+    position: absolute;
+    top: 230px;
+    left: 137px;
+    font-size: 19px;
+    width: 437px;
+    color: grey;
+}
+.teamdiscription #second{
+    position: absolute;
+    top: 340px;
+    left: 137px;
+    font-size: 19px;
+    width: 437px;
+    color: grey;
+}
+.teamprofiles{
+    position: relative;
+    width: 50%;
+}
+.teamprofiles  .istimage{
+    position: absolute;
+    /* border: 1px solid black; */
+    width: 239px;
+    left: 56px;
+    top: 107px;
+}
+.teamprofiles .nameoffirstinstructor{
+    position: absolute;
+    top: 365px;
+    left: 92px;
+    font-size: 36px;
+}
+.teamprofiles .postoffistinstructor{
+    position: absolute;
+    top: 404px;
+    left: 108px;
+    color: grey;
+    font-size: 20px;
+}
+.teamprofiles .secondimage{
+    position: absolute;
+    /* border: 1px solid black; */
+    width: 239px;
+    left: 340px;
+    top: 107px;
+}
+.teamprofiles .nameofsecondinstructor{
+    position: absolute;
+    top: 367px;
+    left: 384px;
+    font-size: 36px;
+}
+.teamprofiles .postofsecondinstructor{
+    position: absolute;
+    top: 402px;
+    left: 405px;
+    color: grey;
+    font-size: 20px;
+}
+.training{
+    /* border: 1px solid red; */
+    height: 110px;
+    position: relative;
+}
+.training h2{
+    position: absolute;
+    top: 27px;
+    left: 570px;
+    color: grey;
+}
+.training h1{
+    position: absolute;
+    top: 58px;
+    left: 493px;
+    font-size: 40px;
+}
+.courses{
+    display: flex;
+    /* border:1px solid red; */
+    height: 600px;
+}
+.course1{
+    position: relative;
+    width: 33.33%;
+    /* border-right: 1px solid black; */
+}
+.course2{
+    position: relative;
+    width: 33.33%;
+    /* border-right: 1px solid black; */
+}
+.course3{
+    position: relative;
+    width: 33.33%;
+}
+.course1 img{
+    position: absolute;
+    width: 336px;
+    top: 80px;
+    left: 130px;
+}
+.course2 img{
+    position: absolute;
+    width: 329px;
+    top: 82px;
+    left: 60px;
+}
+.course3 img{
+    position: absolute;
+    width: 325px;
+    top: 85px;
+    left: -19px;
+}
+.course1 .info1{
+    position: absolute;
+    top: 303px;
+    left: 131px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    /* border: 1px solid black; */
+    width: 333px;
+    height: 139px;
+}
+.course2 .info2{
+    position: absolute;
+    top: 301px;
+    left: 61px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    /* border: 1px solid black; */
+    width: 326px;
+    height: 139px;
+}
+.course3 .info3{
+    position: absolute;
+    top: 301px;
+    left: -18px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    /* border: 1px solid black; */
+    width: 323px;
+    height: 139px;
+}
+.course1 .info1 h1{
+    margin-left: 36px;
+    margin-top: 10px;
+    font-size: 38px;  
+}
+.course1 .info1 span{
+    margin-left: 36px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: grey;
+}
+.course1 .info1 p{
+    margin-left: 36px;
+    margin-top: 12px;
+    font-size: 17px;
+    color: grey;
+}
+.course2 .info2 h1{
+    margin-left: 36px;
+    margin-top: 10px;
+    font-size: 38px;  
+}
+.course2 .info2 span{
+    margin-left: 36px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: grey;
+}
+.course2 .info2 p{
+    margin-left: 36px;
+    margin-top: 12px;
+    font-size: 17px;
+    color: grey;
+}
+.course3 .info3 h1{
+    margin-left: 36px;
+    margin-top: 10px;
+    font-size: 38px;  
+}
+.course3 .info3 span{
+    margin-left: 36px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: grey;
+}
+.course3 .info3 p{
+    margin-left: 36px;
+    margin-top: 12px;
+    font-size: 17px;
+    color: grey;
+}
