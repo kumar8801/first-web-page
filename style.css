@@ -462,3 +462,194 @@
     font-size: 17px;
     color: grey;
 }
+.our_time_table{
+    position: relative;
+    border: 1px solid black;
+    height: 750px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.time_table{
+    position: absolute;
+    border: 1px solid white;
+    width: 1000px;
+    top: 225px;
+    left: 170px;
+    color: white;
+}
+.time_table .table_head th{
+    font-size: 25px;
+    border: 1px solid black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:rgb(255, 5, 55);
+}
+.time_table, th, td{
+    border-collapse: collapse;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.time_table .table_info_1 td{
+    font-size: 18px;
+    border: 1px solid black;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.time_table .table_info_2 td{
+    font-size: 18px;
+    border: 1px solid black;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.time_table .table_info_3 td{
+    font-size: 18px;
+    border: 1px solid black;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.time_table .table_info_4 td{
+    font-size: 18px;
+    border: 1px solid black;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.our_time_table .heading_1{
+    position: absolute;
+    color: grey;
+    font-size: 32px;
+    top: 60px;
+    left: 482px;
+}
+.our_time_table .heading_2{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    top: 96px;
+    left: 467px;
+}
+.footer{
+    height: 780px;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.footer .form{
+    width: 50%;
+    /* border-right: 1px solid black; */
+    position: relative;
+}
+.footer .map{
+    width: 50%;
+}
+.footer .form h1{
+    position: absolute;
+    top: 104px;
+    left: 218px;
+    font-size: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer .form .input_m_1{
+    position: absolute;
+    border-radius: 3px;
+    font-size: 25px;
+    color: grey;
+    border: 1px solid grey;
+    width: 392px;
+    height: 51px;
+    top: 230px;
+    left: 215px;
+    padding-left: 10px;
+}
+.footer .form .input_m_2{
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid grey;
+    font-size: 25px;
+    width: 392px;
+    height: 51px;
+    color: grey;
+    top: 315px;
+    left: 215px;
+    padding-left: 10px;
+}
+.footer .form .input_m_3{
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid grey;
+    font-size: 25px;
+    width: 392px;
+    color: grey;
+    height: 159px;
+    top: 400px;
+    left: 215px;
+    padding-left: 10px;
+}
+.form .send_btn{
+    position: absolute;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 400px;
+    color: grey;
+    height: 51px;
+    top: 600px;
+    left: 215px;
+    background-color: black;
+    transition: all;
+    transition-duration: 0.1s;
+}
+.form .send_btn a{
+    text-decoration: none;
+    color: white;
+}
+.form .send_btn:hover{
+     background-color:rgb(255, 5, 55);
+}
+.footer .map{
+    position: relative;  
+}
+.footer .map h1{
+    position: absolute;  
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    top: 127px;
+    left: 50px;
+    font-size: 40px;
+}
+.footer .map p{
+    position: absolute;  
+    top: 211px;
+    left: 59px;
+    font-size: 21px;
+}
+.footer .map img{
+    position: absolute;  
+    top: 263px;
+    left: 60px;
+    width: 450px;
+    border-radius:5px ;
+}
+.map .phone_no{
+    position: absolute;  
+    top: 550px;
+    left: 70px;
+    font-size: 18px;
+    color: grey;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.map .email{
+    position: absolute;  
+    top: 550px;
+    left: 2px;
+    font-size: 18px;
+    color: grey;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
